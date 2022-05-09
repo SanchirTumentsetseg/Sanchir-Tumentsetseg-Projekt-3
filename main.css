@@ -30,11 +30,14 @@ div:nth-child(2){
     background-color: black;
 }
 div:nth-child(3){
-    height: 400px;
     background-image: url(pexels-justin-hamilton-92248.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
 div:nth-child(4){
+    height: 400px;
     background-color: black;
+}
+img{
+    max-height: 100%;
 }
