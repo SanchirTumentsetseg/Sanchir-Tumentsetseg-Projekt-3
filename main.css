@@ -1,8 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     border: 0;
     padding: 0;
     margin: 0;
 }
+
 
 div{
     display: flex;
@@ -19,10 +23,11 @@ h2{
     color: white;
     padding: 8px 24px;
     border-radius: 16px;
+    size: cover;
 }
 
 div:nth-child(1){
-    background-image: url(open.jpg);
+    background-image: url(3.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -30,14 +35,11 @@ div:nth-child(2){
     background-color: black;
 }
 div:nth-child(3){
-    background-image: url(pexels-justin-hamilton-92248.jpg);
+    background-image: url(2.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
 div:nth-child(4){
     height: 400px;
     background-color: black;
-}
-img{
-    max-height: 100%;
 }
