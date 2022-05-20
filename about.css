@@ -22,3 +22,13 @@ p{
     font-size: xx-large;
     color: white;
 }
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
